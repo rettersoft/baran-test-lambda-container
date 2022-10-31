@@ -5,7 +5,7 @@ exports.handler = async (event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from custom docker container 2222!'),
+        body: JSON.stringify('Hello BARAN'),
     };
     return response;
 };
