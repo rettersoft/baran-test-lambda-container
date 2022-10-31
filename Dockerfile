@@ -1,6 +1,4 @@
-# FROM public.ecr.aws/lambda/nodejs:16
-
-FROM 113195313504.dkr.ecr.eu-west-1.amazonaws.com/baran-lambda-container:latest
+FROM public.ecr.aws/lambda/nodejs:16
 
 # Copy function code
 COPY baran.js ${LAMBDA_TASK_ROOT}/app.js
